@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import FoodList from './Components/FoodList/FoodList';
 import FoodNutritionForm from './Components/FoodNutritionForm/FoodNutritionForm';
 
@@ -27,6 +27,16 @@ export default function App() {
       sugar: 8.7,
       fiber: 1.1,
       protein: 10.8,
+    },
+    {
+      foodName: "Corn with Butter",
+      kcal: 106,
+      fat: 2.4,
+      saturatedFat: 1.1,
+      carbs: 21.9,
+      sugar: 0,
+      fiber: 0,
+      protein: 3.1,
     }
   ]);
 
